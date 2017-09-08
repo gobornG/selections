@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Rows from './Rows';
 import './App.css';
 
 class App extends Component {
@@ -7,15 +8,24 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Options</h2>
+          <br />
+          <h2>A</h2>
+          <h2>B</h2>
+          <h2>C</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div> 
+          <Rows row="Option 1" />
+          <Rows row="Option 2" />
+          <Rows row="Option 3" />
+          <Rows row="Option 4" />
+          <Rows row="Option 5" />
+        </div>
+        
       </div>
     );
   }
+  
 }
 
 export default App;
