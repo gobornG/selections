@@ -8,11 +8,11 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Options</h2>
+          <h1 className="inline" id="options">Options</h1>
           <br />
-          <h2>A</h2>
-          <h2>B</h2>
-          <h2>C</h2>
+          <h1 className="inline" id="letters">A</h1>
+          <h1 className="inline" id="letters">B</h1>
+          <h1 className="inline" id="letters">C</h1>
         </div>
         <div> 
           <Rows row="Option 1" />

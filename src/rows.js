@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 
 class Rows extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class Rows extends Component {
   render() {
     return (
       <div id="rows-container">  
-        <h1>{this.state.row}</h1>
+        <h1 id="row-opt">{this.state.row}</h1><input id="checkBox" type="checkbox" className="boxes" /><input id="checkBox" type="checkbox" className="boxes" /><input id="checkBox" type="checkbox" className="boxes" />
       </div>
     );
   }

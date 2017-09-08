@@ -12,11 +12,49 @@
   height: 150px;
   padding: 20px;
   color: white;
+  display: inline-block;
+  width: 100%;
 }
 
-h2 {
+h1 {
+  font-size: 40px;
+}
+
+#rows-container {
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+}
+
+#row-opt {
+  font-size: 35px;
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+#options {
+  width: 50%;
+  float: left;
+  margin-top: 100px;
+}
+
+#letters {
+  width: 15%;
+  margin: 0 65px;
+  line-height: 210px;
+}
+
+.boxes {
+  width: 10%;
   display: inline;
-} 
+  margin-top: 40px;
+  transform: scale(2);
+}
+
+.inline {
+  display: inline;
+}
 
 .App-intro {
   font-size: large;
